@@ -1,0 +1,12 @@
+{
+  "name": "font-build",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+	"font": "./compile-fonts.sh --name quartersFont --svgs '../assets/icons_svg/*.svg' --config ../assets/icons_svg/quartersFont.json --font ../assets/icons_svg"
+  },
+  "devDependencies": {
+	"svg2ttf": "5.0.0",
+	"svgicons2svgfont": "9.1.1"
+  }
+}
